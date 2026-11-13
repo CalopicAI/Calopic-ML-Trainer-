@@ -1,4 +1,3 @@
-
 # Calopic ML Trainer
 
 A minimal, open-source command-line trainer for classical machine learning models, released by [Calopic](https://Calopic.top).
@@ -20,4 +19,4 @@ no hidden magic. Point it at a CSV, pick a model, get accuracy and a saved model
 ## Install
 
 ```bash
-pip install -e .
+pip install -r requirements.txt
