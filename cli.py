@@ -1,4 +1,8 @@
+# cli.py
 import argparse
+
+from data import load_tabular
+from train import train_and_evaluate
 
 
 def main():
@@ -19,8 +23,6 @@ def main():
     args = parser.parse_args()
 
     if args.command == "fit":
-        from .data import load_tabular
-        from .train import train_and_evaluate
         import joblib
 
         X_train, X_test, y_train, y_test, _ = load_tabular(
