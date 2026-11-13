@@ -16,7 +16,7 @@ classical ML classifiers on tabular CSV data with one command. v0.1 supports:
 The goal is a clean, readable baseline trainer: no notebooks, no boilerplate,
 no hidden magic. Point it at a CSV, pick a model, get accuracy and a saved model file.
 
-## Install
+## Install & Usage 
 
 ```bash
 pip install -r requirements.txt
