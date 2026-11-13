@@ -23,11 +23,11 @@ pip install -r requirements.txt
 
 Requires Python 3.9+.
 
-Usage
+## Usage
 python cli.py fit --model logreg --data iris.csv --target target
 python cli.py fit --model rf --data iris.csv --target target --save model.joblib
 
-Options:
+## Options:
 Flag Description Default
 --model logreg or rf required
 --data path to CSV required
@@ -36,7 +36,7 @@ Flag Description Default
 --seed random seed 42
 --save path to save trained model none
 
-Example
+## Example
 
 Generate the bundled Iris CSV:
 
@@ -49,7 +49,7 @@ python cli.py fit --model rf --data iris.csv --target target
 Output：
 metrics: {'test_acc': 0.9667}
 
-Roadmap
+## Roadmap
 • v0.1: Logistic Regression, Random Forest (current)
 • v0.2: XGBoost
 • v0.3: CNN and Transformer for image data
